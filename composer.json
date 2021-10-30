@@ -34,5 +34,7 @@
     "post-root-package-install": [
       "@php -r \"file_exists('config/config.php') || copy('config/config.sample.php', 'config/config.php');\""
     ]
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
